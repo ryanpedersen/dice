@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/holo_green_dark"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:id="@+id/dices"
+        android:orientation="horizontal"
+        android:background="@android:color/holo_green_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+        <ImageView
+            android:id="@+id/diceOne"
+            android:src="@drawable/dice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_gravity="top" />
+        <ImageView
+            android:id="@+id/diceTwo"
+            android:src="@drawable/dice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_gravity="top" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/MyButton"
+        android:layout_width="fill_parent"
+        android:layout_height="103.0dp"
+        android:text="@string/Roll"
+        android:layout_marginBottom="30dp"
+        android:textSize="30dp"
+        android:textColor="@android:color/holo_blue_light" />
+</LinearLayout>
